@@ -66,7 +66,7 @@ input:checked + .menu nav{
     display: block;
     opacity: 1;
     visibility: visible;
-    background-color: ;
+    background-color: #aa75ff;
 }
 
 ul{
@@ -81,3 +81,20 @@ ul{
     color: white;
 }
 
+header{
+    background-color: black;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
