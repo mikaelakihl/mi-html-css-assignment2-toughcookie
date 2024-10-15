@@ -1,4 +1,7 @@
-body{background-color:#ff0}
+body{
+    background-color:#ff0;
+    font-family: 'Jockey One', sans-serif;
+}
 
 button{
     width: 35px;
@@ -86,10 +89,10 @@ header{
     top: 0;
     display: flex;
     flex-direction: column;
-    height: 60px;
+    position: fixed;
     margin: 0;
     padding: 0;
-
+    width: 100vw;
 
 }
 
@@ -97,4 +100,6 @@ h1{
     text-align: center;
     text-transform: uppercase;
     color: white;
+    letter-spacing: 1em;
 }
+
