@@ -103,9 +103,10 @@ h1{
 }
 
 .page-3{
-    background-color: #aa75ff;
+    background-color: #00ff38;
     height: 500px;
     padding-top: 16px;
+    text-transform: uppercase;
 }
 
 form{
@@ -120,13 +121,24 @@ form{
     display: flex;
     align-items: center;
     margin-bottom: 1vh;
+    margin-left: 16px;
+    font-size: 1,5rem;
 }
 
 .form label{
     flex: 1;
     border: solid black;
+    margin-right: 16px;
+    font-size: 1.5rem;
 }
 
 .form input{
     flex: 2;
+    margin-right: 100px;
+    border-radius: 0.5rem;
+}
+
+h2{
+    font-size: 2.5rem;
+    margin-left: 16px;
 }
