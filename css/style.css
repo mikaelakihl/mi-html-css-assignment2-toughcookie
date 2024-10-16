@@ -102,12 +102,30 @@ h1{
     letter-spacing: 1em;
 }
 
+.page-3{
+    background-color: #aa75ff;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    
+
+}
+
 .form-flex{
     display: flex;
     flex-direction: column;
+    width: 300px;
 }
 
 .form-group{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: right;
+}
+
+.input-group{
     display: flex;
     align-items: center;
 }
