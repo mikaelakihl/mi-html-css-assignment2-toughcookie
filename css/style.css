@@ -102,3 +102,12 @@ h1{
     letter-spacing: 1em;
 }
 
+.form-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group{
+    display: flex;
+    align-items: center;
+}
