@@ -104,28 +104,29 @@ h1{
 
 .page-3{
     background-color: #aa75ff;
-    height: 300px;
-    display: flex;
-    justify-content: center;
+    height: 500px;
     padding-top: 16px;
-    
-
 }
 
-.form-flex{
-    display: flex;
-    flex-direction: column;
-    width: 300px;
+form{
+    width: 500px;
 }
 
-.form-group{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    text-align: right;
+.form form{
+    margin:0 auto;
 }
 
-.input-group{
+.form div{
     display: flex;
     align-items: center;
+    margin-bottom: 1vh;
+}
+
+.form label{
+    flex: 1;
+    border: solid black;
+}
+
+.form input{
+    flex: 2;
 }
