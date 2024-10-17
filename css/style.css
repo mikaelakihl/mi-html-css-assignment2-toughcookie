@@ -102,10 +102,44 @@ h1{
     letter-spacing: 1em;
 }
 
+.h2-container{
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+}
 
-.section-one{
+.word-small{
+    position: absolute;
+    color: #aa75ff;
+}
+
+.word-large{
+    font-size: 5rem;
+    color: #00ff38;
+}
+
+.word-top{
+    top:-40px;
+    left: 53.2%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+}
+
+.word-bottom{
+    bottom: -30px;
+    left: 42%;
+    color: #ff0;
+    font-size: 2rem;
+}
+
+.page-1{
     padding-top: 35px;
     margin-top: 35px;
+}
+
+.section-1{
+    background-color: black;
+    color:#00ff38;
 }
  
 
