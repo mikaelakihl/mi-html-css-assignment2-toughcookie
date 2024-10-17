@@ -147,8 +147,8 @@ h1{
     background-color: #00ff38;
     height: 500px;
     padding-top: 16px;
-    margin-top: ;
     text-transform: uppercase;
+    width: 100%;
 }
 
 form{
@@ -177,7 +177,6 @@ form{
 
 .form input{
     flex: 2;
-    margin-right: 100px;
     border-radius: 0.5rem;
     border: solid black;
 }
@@ -198,3 +197,9 @@ h2{
     gap: 5px;
 }
 
+@media screen and (min-width: 992px){
+    body{
+        background-color: blue;
+    }
+}
+    
