@@ -164,6 +164,18 @@ img{
     height: auto;
 }
 
+.explore-black-arrow{
+    display: flex;
+    position: relative;
+    justify-content: right;
+    text-transform: uppercase;
+}
+
+.explore-black-arrow img{
+    rotate: 90deg;
+}
+.
+
 
 @media screen and (min-width: 852px){
     .base-grid{
