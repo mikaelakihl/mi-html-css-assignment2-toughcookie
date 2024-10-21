@@ -183,8 +183,14 @@ form{
     
 }
 
+.tahini-h2{
+    padding-left:1rem;
+}
+
 .course{
     text-transform:none;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
    
 }
 
@@ -198,6 +204,7 @@ img{
     color: #aa75ff;
     text-transform: none;
     padding-top: 1rem;
+    padding-left: 1rem;
     
 }
 
