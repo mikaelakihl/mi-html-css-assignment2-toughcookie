@@ -54,7 +54,7 @@ input:checked + .menu button span:nth-child(3){
 
 nav{
     position: fixed;
-    top: 0;
+    top: 75px;
     left: 0;
     background-color: #aa75ff;
     width: 100vw;
@@ -84,6 +84,7 @@ ul{
     color: white;
 }
 
+
 header{
     background-color: black;
     top: 0;
@@ -93,6 +94,8 @@ header{
     padding: 0px;
     width: 100vw;
     height: 75px;
+    z-index: 3;
+    
 }
 
 h1{
@@ -322,7 +325,10 @@ img{
     margin-top: 3rem;
    }
 
-   
+   nav{
+    top: 0;
+    margin-left: 90px;
+   }
 
 
 
