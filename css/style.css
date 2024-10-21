@@ -301,8 +301,8 @@ img{
    .header-title{
     writing-mode: vertical-rl;
     text-orientation: upright;
-    align-items: center;
-    position: fixed;
+    /* align-items: center; */
+    margin-top: -250px;
     
    }
 
