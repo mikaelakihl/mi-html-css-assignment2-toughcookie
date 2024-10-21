@@ -194,19 +194,33 @@ img{
 
 .image-text{
     position: relative;
+    color: #aa75ff;
+    text-transform: none;
+    padding-top: 1rem;
+    
+}
+
+.explore-p-container{
+    background-color:white;
+    font-size: 2rem;
+    margin-bottom: 0px;
+    
 }
 
 .explore-black-arrow{
     position: relative;
     justify-content: right;
     display: flex;
-    border: solid green;
+    
+
+    
     
 }
 
+
 .explore-black-arrow img{
     rotate: 90deg;
-    border: solid black;
+    
 }
 
 
@@ -263,18 +277,14 @@ img{
         height: auto;
     }
     .explore-black-arrow{
-        justify-content: right;
+        justify-content: left;
         
     }
 
     .explore-black-arrow img{
         rotate: 0deg;
-        
     }
-
-    .black-arrow{
-        rotate: 180;
-    }
+    
     
     .roman-salad-container{
         display: flex;
@@ -327,6 +337,11 @@ img{
     
 }
 
+.image-text{
+    margin: 0;
+}
+
+
     
  @media screen and (min-width: 1543px){
     .base-grid{
@@ -353,10 +368,7 @@ img{
 
    
 
-   .page-1{
-    margin-top:0px;
-    padding-top:0px;
-   }
+  
 
 
 
