@@ -121,8 +121,8 @@ h1 span{
 }
 
 .page-1{
-    padding-top: 35px;
-    margin-top: 35px;
+    padding-top: 45px;
+    /* margin-top: 35px; */
 }
 
  
@@ -175,6 +175,18 @@ form{
     gap: 5px;
 }
 
+.base-grid{
+    color: #00ff38;
+    background-color: black;
+    font-size: 2rem;
+
+    
+}
+
+.course{
+    text-transform:none
+}
+
 img{
     max-width: 100%;
     height: auto;
@@ -216,6 +228,12 @@ img{
 }
 
 @media screen and (min-width: 852px){
+
+    .page-1{
+        padding-top: 0px;
+        /* margin-top: 35px; */
+    }
+
     .base-grid{
         display: grid;
         grid-template-columns: repeat(4,1fr);
@@ -223,12 +241,10 @@ img{
     }
 
     .base-grid h2:nth-child(1){
-        border: solid green;
         grid-column: 1/2;
     }
 
     .base-grid .course:nth-child(2){
-        border: solid blue;
         grid-column: 2/4;
     }
 
@@ -238,7 +254,6 @@ img{
     }
 
     .base-grid .image-text:nth-child(2){
-        border: pink;
         grid-column: 2/4;
     }
 
@@ -269,6 +284,46 @@ img{
         display: flex;
         flex-direction: column;
     }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* text-align: left; */
+        width: 90px;
+        height: 100vh;
+
+    }
+
+   .header-title{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    /* align-items: center; */
+    margin-top: -250px;
+    
+   }
+
+   main{
+
+    margin-left: 6.5rem;
+    margin-right: 1rem;
+   }
+
+   .tough-cookie{
+    letter-spacing: normal;
+    font-size: 3.3rem;
+    
+   }
+
+   h1 span{
+    margin-top: 3rem;
+   }
+
+   nav{
+    top: 0;
+    margin-left: 90px;
+   }
     
 }
 
@@ -296,45 +351,7 @@ img{
         grid-column: 6/span 11;
     }   
 
-    header{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        /* text-align: left; */
-        width: 90px;
-        height: 100vh;
-
-    }
-
-   .header-title{
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    /* align-items: center; */
-    margin-top: -250px;
-    
-   }
-
-   main{
-    /* padding-left: 6rem; */
-
-    margin-left: 7rem;
-   }
-
-   .tough-cookie{
-    letter-spacing: normal;
-    font-size: 3.3rem;
-    
-   }
-
-   h1 span{
-    margin-top: 3rem;
-   }
-
-   nav{
-    top: 0;
-    margin-left: 90px;
-   }
+   
 
    .page-1{
     margin-top:0px;
