@@ -17,8 +17,8 @@ button{
 
 button span{
     display: block;
-    width: 25px;
-    height: 3px;
+    width: 45px;
+    height: 7px;
     background-color: #fff236;
     border-radius: 6px;
     margin-bottom: 4px;
@@ -29,8 +29,8 @@ button span{
     top: 20px;
     left: 20px;
     z-index: 1;
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     opacity: 0;
     
 }
@@ -92,15 +92,22 @@ header{
     position: fixed;
     padding: 0px;
     width: 100vw;
+    height: 75px;
 }
 
 h1{
+    font-size: 2.2rem;
     text-align: center;
     text-transform: uppercase;
     color: white;
-    letter-spacing: 1em;
+    letter-spacing: 0.8em;
 }
 
+
+h1 span{
+    margin-right: 3rem;
+
+}
 
 .page-1{
     padding-top: 35px;
@@ -286,7 +293,7 @@ img{
         justify-content: center;
         align-items: center;
         /* text-align: left; */
-        width: 80px;
+        width: 90px;
         height: 100vh;
 
     }
@@ -308,6 +315,7 @@ img{
    .tough-cookie{
     letter-spacing: normal;
     font-size: 3.3rem;
+    
    }
 
    h1 span{
