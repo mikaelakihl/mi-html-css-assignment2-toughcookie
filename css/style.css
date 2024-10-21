@@ -286,7 +286,7 @@ img{
         justify-content: center;
         align-items: flex-start;
         /* text-align: left; */
-        width: 5vw;
+        width: 80px;
         height: 100vh;
 
     }
@@ -300,6 +300,13 @@ img{
     
    }
 
+   main{
+    /* padding-left: 6rem; */
+
+    margin-left: 6rem;
+   }
+
+   
 
 
 
