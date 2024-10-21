@@ -280,14 +280,25 @@ img{
         grid-column: 6/span 11;
     }   
 
-    .header-container{
-        background-color: #00ff38;
-
-    }
-
     header{
-        background-color: pink;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        /* text-align: left; */
+        width: 5vw;
+        height: 100vh;
+
     }
+
+   .header-title{
+    /* display: flex;
+    flex-direction: column; */
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    align-items: center;
+    
+   }
 
 
 
