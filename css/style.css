@@ -247,6 +247,18 @@ img{
     position: relative;
 }
 
+.chickpeas-one-container{
+    object-fit: cover;
+        width: 100%;
+        height: auto;
+}
+
+.food-menu-container{
+    background-color: white;
+    border: black solid 1px;
+    text-align: center;
+}
+
 @media screen and (min-width: 852px){
 
     .page-1{
