@@ -266,6 +266,7 @@ img{
 
 .food-desc{
     font-size: 1rem;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .food-menu-container dt{
@@ -274,7 +275,7 @@ img{
 
 .food-menu-container dd{
     margin-left: 0px;
-    text-transform: lowercase;
+    text-transform: none;
     
    
 }
