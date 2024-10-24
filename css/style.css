@@ -260,7 +260,12 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 1.5rem;
     
+}
+
+.food-desc{
+    font-size: 1rem;
 }
 
 .food-menu-container dt{
@@ -268,8 +273,9 @@ img{
 }   
 
 .food-menu-container dd{
-    text-align: center;
     margin-left: 0px;
+    text-transform: lowercase;
+    
    
 }
 
@@ -473,10 +479,12 @@ img{
 .food-menu-container{
     flex-direction: row;
     justify-content: space-between;
-;
+    
 }
 
-
+.food-menu-container dd{
+    text-align: right;
+}
 
 
  }
