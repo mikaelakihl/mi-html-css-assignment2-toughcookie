@@ -262,8 +262,10 @@ img{
     align-items: center;
     font-size: 1.5rem;
     height: 80px;
+    margin-top: 0.5rem;
     
 }
+
 
 .food-desc{
     font-size: 1rem;
@@ -480,14 +482,23 @@ img{
  
 .food-menu-container{
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-between;
     
 }
 
-.food-menu-container dd{
-    text-align: right;
+.food-menu-container dt{
+    margin-left: 0.5rem;
+    font-size: 2rem;
 }
 
+.food-desc{
+    text-align: none;
+}
+
+.food-menu-container dd:not(.food-desc) {
+    margin-right: 0.5rem;
+    font-size: 2rem;
+}
 
  }
    
