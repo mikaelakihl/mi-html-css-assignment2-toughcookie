@@ -99,6 +99,9 @@ li{
     margin-bottom: 10px;
 }
 
+/*Menu ------------------ ends*/
+
+/* Header --------------- start*/
 
 header{
     background-color: black;
@@ -126,67 +129,20 @@ h1 span{
 
 }
 
+/*Header --------------- ends */
+
+/*Page One -------------- starts*/
+
 .page-1{
     padding-top: 45px;
     /* margin-top: 35px; */
 }
 
- 
-
-.page-3{
-    background-color: #00ff38;
-    height: 500px;
-    padding-top: 16px;
-    width: 100%;
-}
-
-form{
-    width: 500px;
-}
-
-.form form{
-    margin:0 auto;
-}
-
-.form div{
-    display: flex;
-    align-items: center;
-    margin-bottom: 1vh;
-    margin-left: 16px;
-    font-size: 1,5rem;
-    width: 40vw;
-}
-
-.form label{
-    flex: 1;
-    border: solid black;
-    margin-right: 16px;
-    font-size: 1.5rem;
-}
-
-.form input{
-    flex: 2;
-    border-radius: 0.5rem;
-    border: solid black;
-}
-
-.form span{
-    margin-left: 16px;
-    display: flex;
-    
-}
-
-.form span input{
-    width: 100px;
-    gap: 5px;
-}
 
 .base-grid{
     color: #00ff38;
     background-color: black;
     font-size: 2rem;
-
-    
 }
 
 .tahini-h2{
@@ -254,36 +210,9 @@ img{
     position: relative;
 }
 
+/* Page One -------------- Ends*/
 
-.food-menu-container{
-    background-color: white;
-    border: black solid 1px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.5rem;
-    height: 80px;
-    margin-top: 0.5rem;
-    
-}
-
-
-.food-desc{
-    font-size: 1rem;
-    font-family: "Roboto Condensed", sans-serif;
-}
-
-.food-menu-container dt{
-    text-align: center;
-}   
-
-.food-menu-container dd{
-    margin-left: 0px;
-    text-transform: none;
-    
-   
-}
-
+/* Page Two -------------- Starts*/
 
 .page-2{
     display: grid;
@@ -317,6 +246,87 @@ img{
     aspect-ratio: 2/2;
 }
 
+.food-menu-container{
+    background-color: white;
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 80px;
+    margin-top: 0.5rem;
+    
+}
+
+.food-desc{
+    font-size: 1rem;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.food-menu-container dt{
+    text-align: center;
+}   
+
+.food-menu-container dd{
+    margin-left: 0px;
+    text-transform: none;
+    
+   
+}
+
+/* Page 2 ------------- Ends*/
+
+/*Page 3 -------------- Starts*/
+
+.page-3{
+    background-color: #00ff38;
+    height: 500px;
+    padding-top: 16px;
+    width: 100%;
+}
+
+form{
+    width: 500px;
+}
+
+.form form{
+    margin:0 auto;
+}
+
+.form div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1vh;
+    margin-left: 16px;
+    font-size: 1,5rem;
+    width: 40vw;
+}
+
+.form label{
+    flex: 1;
+    border: solid black;
+    margin-right: 16px;
+    font-size: 1.5rem;
+}
+
+.form input{
+    flex: 2;
+    border-radius: 0.5rem;
+    border: solid black;
+}
+
+.form span{
+    margin-left: 16px;
+    display: flex;
+    
+}
+
+.form span input{
+    width: 100px;
+    gap: 5px;
+}
+
+/* Page 3 ------------ Ends*/
 
 @media screen and (min-width: 852px){
 
@@ -362,6 +372,51 @@ img{
 
     
  @media screen and (min-width: 1543px){
+
+    /*Header, nav, menu ---------- Starts*/
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* text-align: left; */
+        width: 90px;
+        height: 100vh;
+
+    }
+
+   .header-title{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    /* align-items: center; */
+    margin-top: -250px;
+    
+   }
+
+   main{
+    margin-top: 0;
+    margin-left: 6.5rem;
+   }
+
+   .tough-cookie{
+    letter-spacing: normal;
+    font-size: 3.3rem;
+    
+   }
+
+   h1 span{
+    margin-top: 3rem;
+   }
+
+   nav{
+    top: 0;
+    margin-left: 90px;
+   }
+
+ /* Header, nav, menu ------ Ends */
+
+ /* Page One ------------- Starts*/
 
     .base-grid{
         display: grid;
@@ -410,53 +465,17 @@ img{
         flex-direction: column;
     }
 
-    header{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        /* text-align: left; */
-        width: 90px;
-        height: 100vh;
-
+    .page-1{
+        margin-top: 0;
+    }
+    
+    .image-text{
+        margin: 0;
     }
 
-   .header-title{
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    /* align-items: center; */
-    margin-top: -250px;
-    
-   }
+/* Page One ----------- Ends*/
 
-   main{
-    margin-top: 0;
-    margin-left: 6.5rem;
-   }
-
-   .tough-cookie{
-    letter-spacing: normal;
-    font-size: 3.3rem;
-    
-   }
-
-   h1 span{
-    margin-top: 3rem;
-   }
-
-   nav{
-    top: 0;
-    margin-left: 90px;
-   }
-    
-
-.page-1{
-    margin-top: 0;
-}
-
-.image-text{
-    margin: 0;
-}
+/* Page Two -------------- Starts*/
 
 .page-2 {
     grid-template-columns: repeat(11,1fr);
@@ -485,8 +504,7 @@ img{
  
 .food-menu-container{
     flex-direction: row;
-    justify-content:space-between;
-    
+    /* justify-content:space-between; */
     
 }
 
