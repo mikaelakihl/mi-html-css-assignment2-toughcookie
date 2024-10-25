@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color:#ff0;
+body {
+    background-color: #ff0;
     font-family: 'Jockey One', sans-serif;
     text-transform: uppercase;
     font-size: 1rem;
 }
 
-button{
+button {
     width: 35px;
     height: 35px;
     background: transparent;
@@ -23,7 +23,7 @@ button{
     pointer-events: none;
 }
 
-button span{
+button span {
     display: block;
     width: 45px;
     height: 7px;
@@ -32,7 +32,7 @@ button span{
     margin-bottom: 4px;
 }
 
-.box{
+.box {
     position: fixed;
     top: 20px;
     left: 20px;
@@ -40,27 +40,27 @@ button span{
     width: 45px;
     height: 45px;
     opacity: 0;
-    
+
 }
 
-input:checked + .menu button span{
+input:checked+.menu button span {
     position: absolute;
     transition: all 0.2s ease-in-out;
 }
 
-input:checked + .menu button span:nth-child(2){
+input:checked+.menu button span:nth-child(2) {
     opacity: 0;
 }
 
-input:checked + .menu button span:nth-child(1){
+input:checked+.menu button span:nth-child(1) {
     transform: rotate(45deg);
 }
 
-input:checked + .menu button span:nth-child(3){
+input:checked+.menu button span:nth-child(3) {
     transform: rotate(-45deg);
 }
 
-nav{
+nav {
     position: fixed;
     top: 75px;
     left: 0;
@@ -69,19 +69,19 @@ nav{
     height: 100vh;
     visibility: hidden;
     opacity: 0;
-    transition: all 0,4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: all 0, 4s cubic-bezier(0.075, 0.82, 0.165, 1);
 
 }
 
 
-input:checked + .menu nav{
+input:checked+.menu nav {
     display: block;
     opacity: 1;
     visibility: visible;
     background-color: #aa75ff;
 }
 
-ul{
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -95,7 +95,7 @@ ul{
     font-size: 3rem;
 }
 
-li{
+li {
     margin-bottom: 10px;
 }
 
@@ -103,7 +103,7 @@ li{
 
 /* Header --------------- start*/
 
-header{
+header {
     background-color: black;
     top: 0;
     display: flex;
@@ -113,10 +113,10 @@ header{
     width: 100vw;
     height: 75px;
     z-index: 3;
-    
+
 }
 
-h1{
+h1 {
     font-size: 2.2rem;
     text-align: center;
     color: white;
@@ -124,7 +124,7 @@ h1{
 }
 
 
-h1 span{
+h1 span {
     margin-right: 3rem;
 
 }
@@ -133,67 +133,67 @@ h1 span{
 
 /*Page One -------------- starts*/
 
-.page-1{
+.page-1 {
     padding-top: 45px;
     /* margin-top: 35px; */
 }
 
 
-.base-grid{
+.base-grid {
     color: #00ff38;
     background-color: black;
     font-size: 2rem;
 }
 
-.tahini-h2{
-    padding-left:1rem;
+.tahini-h2 {
+    padding-left: 1rem;
 }
 
-.course{
-    text-transform:none;
+.course {
+    text-transform: none;
     padding-left: 1rem;
     padding-bottom: 1rem;
-   
+
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
 }
 
-.image-text{
+.image-text {
     position: relative;
     color: #aa75ff;
     text-transform: none;
     padding-top: 1rem;
     padding-left: 1rem;
     margin-top: 0px;
-    
+
 }
 
-.explore-p-container{
-    background-color:white;
+.explore-p-container {
+    background-color: white;
     font-size: 2rem;
     margin-bottom: 0px;
-    
+
 }
 
-.explore-black-arrow{
+.explore-black-arrow {
     position: relative;
     justify-content: right;
     display: flex;
     padding-right: 1rem;
-    
+
 }
 
 
-.explore-black-arrow img{
+.explore-black-arrow img {
     rotate: 90deg;
-    
+
 }
 
 
-.white-arrow{
+.white-arrow {
     position: absolute;
     margin-bottom: 2rem;
     margin-left: 1rem;
@@ -201,12 +201,12 @@ img{
     bottom: 0;
 }
 
-.white-arrow img{
+.white-arrow img {
     height: 5vw;
     rotate: 90deg;
 }
 
-.img-container{
+.img-container {
     position: relative;
 }
 
@@ -214,39 +214,42 @@ img{
 
 /* Page Two -------------- Starts*/
 
-.page-2{
+.page-2 {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(2,1fr);
-    
-}
-.page-2 .chickpeas-one-container:nth-child(1){
-    grid-column: 1/-1;
-    
+    grid-template-columns: repeat(2, 1fr);
+
 }
 
-.page-2 .desc:nth-child(2){
+.page-2 .chickpeas-one-container:nth-child(1) {
+    grid-column: 1/-1;
+
+}
+
+.page-2 .desc:nth-child(2) {
     grid-column: 1/-1;
 }
 
-.page-2 .bowl-plate-container-one:nth-child(3){
+.page-2 .bowl-plate-container-one:nth-child(3) {
     grid-column: 1/2;
     overflow: hidden;
 }
 
-.page-2 .bowl-plate-container-two:nth-child(4){
+.page-2 .bowl-plate-container-two:nth-child(4) {
     grid-column: 2;
     overflow: hidden;
 }
 
-.page-2 .bowl-plate-container-one img, .page-2 .bowl-plate-container-two img, .page-2 .chickpeas-one-container img{
+.page-2 .bowl-plate-container-one img,
+.page-2 .bowl-plate-container-two img,
+.page-2 .chickpeas-one-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     aspect-ratio: 2/2;
 }
 
-.food-menu-container{
+.food-menu-container {
     background-color: white;
     border: black solid 1px;
     display: flex;
@@ -255,127 +258,101 @@ img{
     font-size: 1.5rem;
     height: 80px;
     margin-top: 0.5rem;
-    
+
 }
 
-.food-desc{
+.food-desc {
     font-size: 1rem;
     font-family: "Roboto Condensed", sans-serif;
 }
 
-.food-menu-container dt{
+.food-menu-container dt {
     text-align: center;
-}   
+}
 
-.food-menu-container dd{
+.food-menu-container dd {
     margin-left: 0px;
     text-transform: none;
-    
-   
+
+
 }
 
 /* Page 2 ------------- Ends*/
 
 /*Page 3 -------------- Starts*/
 
-.page-3{
+.page-3 {
     background-color: #00ff38;
     height: 500px;
     padding-top: 16px;
     width: 100%;
 }
 
-form{
+form {
     width: 500px;
 }
 
-.form form{
-    margin:0 auto;
+.form form {
+    margin: 0 auto;
 }
 
-.form div{
+.form div {
     display: flex;
     align-items: center;
     margin-bottom: 1vh;
     margin-left: 16px;
-    font-size: 1,5rem;
+    font-size: 1, 5rem;
     width: 40vw;
 }
 
-.form label{
+.form label {
     flex: 1;
     border: solid black;
     margin-right: 16px;
     font-size: 1.5rem;
 }
 
-.form input{
+.form input {
     flex: 2;
     border-radius: 0.5rem;
     border: solid black;
 }
 
-.form span{
+.form span {
     margin-left: 16px;
     display: flex;
-    
+
 }
 
-.form span input{
+.form span input {
     width: 100px;
     gap: 5px;
 }
 
 /* Page 3 ------------ Ends*/
 
-@media screen and (min-width: 852px){
+@media screen and (min-width: 852px) {
 
-    .page-1{
+    .page-1 {
         padding-top: 0px;
         margin-top: 35px;
     }
 
-    main{
+    main {
         margin-left: 1rem;
         margin-right: 1rem;
         margin-top: 5.5rem;
-       }
+    }
 
 }
 
- 
 
-    /* .base-grid{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        gap: 10px;
-    }
 
-    .base-grid h2:nth-child(1){
-        grid-column: 1/2;
-    }
-
-    .base-grid .course:nth-child(2){
-        grid-column: 2/4;
-    } */
-/* 
-    .base-grid .roman-salad:nth-child(1){
-        border: solid blue;
-        grid-column: 1/2;
-    }
-
-    .base-grid .image-text:nth-child(2){
-        grid-column: 2/4;
-    } */
-
-  
-
-    
- @media screen and (min-width: 1543px){
+@media screen and (min-width: 1543px) {
 
     /*Header, nav, menu ---------- Starts*/
 
-    header{
+    header {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -386,142 +363,142 @@ form{
 
     }
 
-   .header-title{
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    /* align-items: center; */
-    margin-top: -250px;
-    
-   }
+    .header-title {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        /* align-items: center; */
+        margin-top: -250px;
 
-   main{
-    margin-top: 0;
-    margin-left: 6.5rem;
-   }
-
-   .tough-cookie{
-    letter-spacing: normal;
-    font-size: 3.3rem;
-    
-   }
-
-   h1 span{
-    margin-top: 3rem;
-   }
-
-   nav{
-    top: 0;
-    margin-left: 90px;
-   }
-
- /* Header, nav, menu ------ Ends */
-
- /* Page One ------------- Starts*/
-
-    .base-grid{
-        display: grid;
-        grid-template-columns: repeat(11,1fr);
-      
     }
 
-    .base-grid h2:nth-child(1){
+    main {
+        margin-top: 0;
+        margin-left: 6.5rem;
+    }
+
+    .tough-cookie {
+        letter-spacing: normal;
+        font-size: 3.3rem;
+
+    }
+
+    h1 span {
+        margin-top: 3rem;
+    }
+
+    nav {
+        top: 0;
+        margin-left: 90px;
+    }
+
+    /* Header, nav, menu ------ Ends */
+
+    /* Page One ------------- Starts*/
+
+    .base-grid {
+        display: grid;
+        grid-template-columns: repeat(11, 1fr);
+
+    }
+
+    .base-grid h2:nth-child(1) {
         grid-column: 2/span 3;
     }
 
-    .base-grid .course:nth-child(2){
+    .base-grid .course:nth-child(2) {
         grid-column: 5/span 11;
     }
 
-    .base-grid .roman-salad:nth-child(1){
+    .base-grid .roman-salad:nth-child(1) {
         grid-column: 1/span 5;
     }
 
-    .base-grid .image-text:nth-child(2){
+    .base-grid .image-text:nth-child(2) {
         grid-column: 6/span 11;
-    }   
+    }
 
-    .page-1 .roman-salad{
+    .page-1 .roman-salad {
         object-fit: cover;
         width: 100%;
         height: auto;
     }
-    .explore-black-arrow{
+
+    .explore-black-arrow {
         justify-content: left;
         padding-left: 1rem;
-        
+
     }
 
-    .explore-black-arrow img{
+    .explore-black-arrow img {
         rotate: 0deg;
     }
-    
-    
-    .roman-salad-container{
+
+
+    .roman-salad-container {
         display: flex;
     }
-    
-    .epxlore-p-container{
+
+    .epxlore-p-container {
         display: flex;
         flex-direction: column;
     }
 
-    .page-1{
+    .page-1 {
         margin-top: 0;
     }
-    
-    .image-text{
+
+    .image-text {
         margin: 0;
     }
 
-/* Page One ----------- Ends*/
+    /* Page One ----------- Ends*/
 
-/* Page Two -------------- Starts*/
+    /* Page Two -------------- Starts*/
 
-.page-2 {
-    grid-template-columns: repeat(11,1fr);
-    
+    .page-2 {
+        grid-template-columns: repeat(11, 1fr);
+
+    }
+
+    .page-2 .chickpeas-one-container:nth-child(1) {
+        grid-column: 1/4;
+        order: 1;
+    }
+
+    .page-2 .bowl-plate-container-one:nth-child(3) {
+        grid-column: 4/8;
+        order: 2;
+    }
+
+    .page-2 .bowl-plate-container-two:nth-child(4) {
+        grid-column: 8/12;
+        order: 3;
+    }
+
+    .page-2 .desc:nth-child(2) {
+        grid-column: 1span/11;
+        order: 4;
+    }
+
+    .food-menu-container {
+        flex-direction: row;
+        /* justify-content:space-between; */
+
+    }
+
+    .food-menu-container dt {
+        margin-left: 0.5rem;
+        font-size: 2rem;
+    }
+
+    .food-menu-container dd {
+        text-align: left;
+    }
+
+
+    .food-menu-container dd:not(.food-desc) {
+        margin-right: 0.5rem;
+        font-size: 2rem;
+    }
+
 }
-
-.page-2 .chickpeas-one-container:nth-child(1){
-    grid-column: 1/4;
-    order:1;
-}
-
-.page-2 .bowl-plate-container-one:nth-child(3){
-    grid-column: 4/8;
-    order: 2;
-}
-
-.page-2 .bowl-plate-container-two:nth-child(4){
-    grid-column: 8/12;
-    order: 3;
-}
-
-.page-2 .desc:nth-child(2){
-    grid-column: 1span/11;
-    order:4;
-}
- 
-.food-menu-container{
-    flex-direction: row;
-    /* justify-content:space-between; */
-    
-}
-
-.food-menu-container dt{
-    margin-left: 0.5rem;
-    font-size: 2rem;
-}
-
-.food-menu-container dd{
-    text-align: left;
-}
-
-
-.food-menu-container dd:not(.food-desc) {
-    margin-right: 0.5rem;
-    font-size: 2rem;
-}
-
- }
-   
