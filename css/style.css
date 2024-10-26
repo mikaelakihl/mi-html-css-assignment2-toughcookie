@@ -299,10 +299,14 @@ form {
     margin: 0 auto;
 }
 
+.form-heading{
+    font-size: 2.5rem;
+}
+
 .form div {
     display: flex;
     align-items: center;
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
     margin-left: 16px;
     font-size: 1, 5rem;
     width: 40vw;
@@ -329,11 +333,16 @@ form {
 
 .form-buttons input{
     text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.form-button-request{
+    background-color: #ff0;
 
 }
 
-.form-buttons-request{
-    
+.form-button-cancel{
+    background-color: #aa75ff;
 }
 
 /* .form span input {
