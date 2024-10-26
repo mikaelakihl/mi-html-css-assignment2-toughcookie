@@ -295,26 +295,28 @@ form {
     width: 100%;
 }
 
-.form form {
+.form {
     margin: 0 auto;
+    width: 50vw;
 }
 
 .form-heading{
     font-size: 2.5rem;
+    margin-left: 1rem;
 }
 
 .form div {
     display: flex;
     align-items: center;
     margin-bottom: 2vh;
-    margin-left: 16px;
+    margin-left: 1rem;
     font-size: 1, 5rem;
-    width: 40vw;
+    /* width: 50vw; */
 }
 
 .form label {
     flex: 1;
-    margin-right: 16px;
+    margin-right: 0;
     font-size: 1.5rem;
 }
 
@@ -323,6 +325,7 @@ form {
     border-radius: 0.7rem;
     text-transform:capitalize;
 }
+
 
 .form-buttons {
     margin-left: 16px;
