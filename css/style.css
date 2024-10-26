@@ -582,7 +582,13 @@ form {
         grid-column: 11;
     }
 
-    
+    .title-desc{
+        margin-left: 1rem;
+    }
+
+    .price-desc{
+        margin-right: 1rem;
+    }
 
     /* .food-menu-container {
         flex-direction: row;
@@ -638,6 +644,8 @@ form {
         text-align: right;
     }
  */
+
+/*Page 2 -------- Ends*/
 
 /* Page 3 ------ Starts*/
 
