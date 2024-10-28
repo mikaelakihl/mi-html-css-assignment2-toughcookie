@@ -159,10 +159,9 @@ h1 span {
     padding-left: 1rem;
     padding-bottom: 1rem;
     max-width: 65ch;
+    padding-bottom: 1rem;
 
 }
-
-
 
 .image-text {
     position: relative;
@@ -180,6 +179,8 @@ h1 span {
     font-size: 2rem;
     margin-bottom: 0px;
     padding-right: 1rem;
+    padding-bottom: 1rem;
+
 
 }
 
