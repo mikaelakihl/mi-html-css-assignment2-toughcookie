@@ -303,6 +303,7 @@ form {
 .form-heading{
     font-size: 2.5rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
 }
 
 .form div {
@@ -317,13 +318,13 @@ form {
 .form label {
     margin-right: 0;
     font-size: 1.5rem;
-    width: 150px;
+    width: 110px;
 }
 
 .form input {
     border-radius: 0.7rem;
     text-transform:capitalize;
-    width: 300px;
+    width: 280px;
     max-width: 300px;
 }
 
@@ -333,6 +334,7 @@ form {
     display: flex;
     height: 35px;
     gap: 1rem;
+    width: 390px;
 }
 
 .form-buttons input{
