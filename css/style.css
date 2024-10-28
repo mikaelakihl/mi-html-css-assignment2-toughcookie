@@ -170,6 +170,7 @@ h1 span {
     left:0;
     right:0;
     text-align: center;
+    z-index: 2;
 }
 
 .h2-drizzle{
@@ -179,6 +180,7 @@ h1 span {
     top: 2rem;
     right: -1rem;
     font-size: 3rem;
+    color: #aa75ff;
 
 }
 
@@ -186,9 +188,10 @@ h1 span {
     align-self: center;
     order: 3;
     position: absolute;
-    bottom: 0.1rem;
+    bottom: -0.4rem;
     left: 1.3rem;
     font-size: 3rem;
+    color: #ff0;
 }
 
 .course {
@@ -617,6 +620,11 @@ form {
         grid-template-columns: repeat(11, 1fr);
 
     }
+
+    .tahini-h2{
+        margin-left: 10vw;
+    }
+
 
     .base-grid h2:nth-child(1) {
         grid-column: 1/span 4;
