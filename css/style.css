@@ -152,6 +152,43 @@ h1 span {
 
 .tahini-h2 {
     padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    background-color: black;
+    margin-left: 1rem;
+}
+
+.h2-tahini{
+    align-self: center;
+    order: 2;
+    font-size: 8rem;
+    position: absolute;
+    top: 50px;
+    left:0;
+    right:0;
+    text-align: center;
+}
+
+.h2-drizzle{
+    align-self: center;
+    order: 1;
+    position: absolute;
+    top: 2rem;
+    right: -1rem;
+    font-size: 3rem;
+
+}
+
+.h2-chickpeas{
+    align-self: center;
+    order: 3;
+    position: absolute;
+    bottom: 0.1rem;
+    left: 1.3rem;
+    font-size: 3rem;
 }
 
 .course {
@@ -403,7 +440,7 @@ form {
 
 
 .form-buttons {
-    margin-left: 16px;
+    margin-left: 1rem;
     display: flex;
     height: 35px;
     gap: 1rem;
@@ -582,7 +619,8 @@ form {
     }
 
     .base-grid h2:nth-child(1) {
-        grid-column: 2/span 3;
+        grid-column: 1/span 4;
+        padding-right: 1rem;
     }
 
     .base-grid .course:nth-child(2) {
