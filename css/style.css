@@ -103,6 +103,11 @@ li {
 
 /* Header --------------- start*/
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 header {
     background-color: black;
     top: 0;
@@ -156,10 +161,7 @@ h1 span {
 
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
+
 
 .image-text {
     position: relative;
@@ -184,6 +186,11 @@ img {
     display: flex;
     padding-right: 1rem;
 
+}
+
+.link-explore-menu{
+    text-decoration: none;
+    color: black;
 }
 
 
