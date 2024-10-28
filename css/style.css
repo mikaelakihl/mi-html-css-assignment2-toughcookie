@@ -275,6 +275,34 @@ h1 span {
     text-transform: none;
 }
 
+.label{
+    font-size: 1rem;
+}
+
+.label-new{
+    background-color: #aa75ff;
+}
+
+.label-vegan{
+    background-color: #00ff38;
+}
+
+.label-popular{
+    background-color: #ff0;
+}
+
+/* .label-new-text{
+    
+}
+
+.label-vegan-text{
+    
+}
+
+.label-popular-text{
+    
+} */
+
 /* .food-menu-container dt {
     text-align: center;
 }
