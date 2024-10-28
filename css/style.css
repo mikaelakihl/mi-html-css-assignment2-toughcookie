@@ -315,15 +315,16 @@ form {
 }
 
 .form label {
-    flex: 1;
     margin-right: 0;
     font-size: 1.5rem;
+    width: 150px;
 }
 
 .form input {
-    flex: 2;
     border-radius: 0.7rem;
     text-transform:capitalize;
+    width: 300px;
+    max-width: 300px;
 }
 
 
