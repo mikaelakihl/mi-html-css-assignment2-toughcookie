@@ -657,11 +657,11 @@ form {
 }
 
 .page-3 .form-section{
-    grid-template-columns: 1/5;
+    grid-column: 1/span 5;
 }
 
 .page-3 .contact-card{
-    grid-column: 6/11;
+    grid-column: 6/ span 11;
 }
 
 
