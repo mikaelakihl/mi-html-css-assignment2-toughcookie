@@ -11,7 +11,7 @@ body {
     font-size: 1rem;
 }
 
-button {
+.menu-button {
     width: 35px;
     height: 35px;
     background: transparent;
@@ -23,7 +23,7 @@ button {
     pointer-events: none;
 }
 
-button span {
+.menu-button span {
     display: block;
     width: 45px;
     height: 7px;
