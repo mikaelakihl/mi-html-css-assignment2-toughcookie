@@ -308,7 +308,7 @@ h1 span {
     flex-direction: column;
     align-items: center; */
     font-size: 1.5rem;
-    height: 80px;
+    height: 100px;
     margin-top: 0.5rem;
     text-align: center;
 
@@ -322,6 +322,7 @@ h1 span {
 
 .title-desc{
     position: relative;
+    padding-top: 0.8rem;
 }
 
 .label{
@@ -590,7 +591,15 @@ h1 span {
     margin-right: 3rem;
 
 }
-    
+
+.food-menu-container{
+     height: 80px;
+}
+
+    .title-desc{
+        padding-top: 0;
+    }
+
 
 }
 
@@ -745,6 +754,7 @@ h1 span {
         grid-template-columns: 4fr 5fr 2fr;
         text-align: left;
         align-items: center;
+        
     }
 
 
