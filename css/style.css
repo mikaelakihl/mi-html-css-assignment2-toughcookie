@@ -638,7 +638,8 @@ h1 span {
         writing-mode: vertical-rl;
         text-orientation: upright;
         /* align-items: center; */
-        margin-top: -250px;
+        margin-top: 0;
+        margin-left: 0;
 
     }
 
@@ -654,7 +655,7 @@ h1 span {
     }
 
     h1 span {
-        margin-top: 3rem;
+        /* margin-top: -2rem; */
     }
 
     nav {
