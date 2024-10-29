@@ -122,8 +122,8 @@ header {
 }
 
 h1 {
-    font-size: 2.2rem;
-    text-align: center;
+    font-size: 1.5rem;
+    text-align: right;
     color: white;
     letter-spacing: 0.8em;
 }
@@ -479,9 +479,11 @@ form {
 .contact-card{
     position: relative;
     width: 500px;
+    height: 500px;
     margin-top: 1rem;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .contact-image{
@@ -495,11 +497,12 @@ form {
 
 .contact-text{
     position: absolute;
-    width: 100%;
+    width: auto;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-shadow: 10px 2px 10px black;
 }
 
@@ -509,6 +512,7 @@ form {
     text-transform: none;
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 
@@ -577,6 +581,12 @@ form {
         margin-right: 1rem;
         margin-top: 5.5rem;
     }
+h1{
+    font-size: 2.2rem;
+    text-align: center;
+
+}
+    
 
 }
 
