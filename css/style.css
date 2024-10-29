@@ -555,7 +555,7 @@ form {
 .cookie-button{
     border-radius: 0.7rem;
     text-align: center;
-    width: 190px;
+    width: 80px;
 }
 
 .cookie-button-container input{
@@ -603,6 +603,10 @@ h1 span {
 
 .contact-text p{
     font-size: 1.5rem;
+}
+
+.cookie-button{
+    width: 190px;
 }
 
 }
