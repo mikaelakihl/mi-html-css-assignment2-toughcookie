@@ -136,7 +136,7 @@ header {
     padding: 0px;
     width: 100vw;
     height: 75px;
-    z-index: 3;
+    z-index:4;
 
 }
 
@@ -430,6 +430,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 7rem; /* La till padding på grund av att formuläret inte var helt tillgängligt på grund av footern som man ej kan klicka ned.
 }
 
 form {
