@@ -12,8 +12,8 @@ body {
 }
 
 .menu-button {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     background: transparent;
     border: 0;
     position: fixed;
@@ -71,6 +71,11 @@ nav {
     opacity: 0;
     transition: all 0, 4s cubic-bezier(0.075, 0.82, 0.165, 1);
 
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
 }
 
 
