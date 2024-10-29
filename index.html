@@ -16,7 +16,7 @@
 
 <body>
   <header class="header-container">
-    <input aria-label="menu-toggle-button" class="box" type="checkbox" />
+    <input aria-label="Menu toggle button" class="box" type="checkbox" />
     <div class="menu">
       <button class="menu-button">
         <span></span>
@@ -25,9 +25,9 @@
       </button>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Book a table</a></li> <!--Ändrade "Book table" till "Book a table" för en mer enhetlig design-->
+          <li><a href="#first-page-section" aria-label="Explore first page">Home</a></li>
+          <li><a href="#menu-section" aria-label="Explore menu">Menu</a></li>
+          <li><a href="#book-a-table-section" aria-label="Explore book a table">Book a table</a></li> <!--Ändrade "Book table" till "Book a table" för en mer enhetlig design-->
         </ul>
       </nav>
     </div>
@@ -36,7 +36,7 @@
       <span class="tough-cookie">Cookie</span>
     </h1>
   </header>
-  <main>
+  <main id="first-page-section">
     <div class="page-1">
       <section class="base-grid">
         <h2 class="tahini-h2">
@@ -64,7 +64,7 @@
             cookie seeds samosa walnut mushroom tart.
           </p>
           <div class="explore-black-arrow">
-            <a class="link-explore-menu" href="#menu-section">Explore menu</a>
+            <a class="link-explore-menu" href="#menu-section" aria-label="Explore menu">Explore menu</a>
             <img src="assets/icons/arrow2.svg">
           </div>
         </div>
@@ -134,7 +134,7 @@
 
     <section class="page-3">
       <div class="form-section">
-        <h2 class="form-heading">Book a table</h2>
+        <h2 class="form-heading" id="book-a-table-section">Book a table</h2>
         <!--Ändrade "book your table" till "book a table" för en mer enhetlig design-->
         <form class="form">
           <div>
