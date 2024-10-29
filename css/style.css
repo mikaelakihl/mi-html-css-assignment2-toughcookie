@@ -303,7 +303,7 @@ h1 {
     flex-direction: column;
     align-items: center; */
     font-size: 1.5rem;
-    height: 100px;
+    height: 110px;
     margin-top: 0.5rem;
     text-align: center;
 
@@ -533,7 +533,7 @@ form {
 
 .cookie-text{
     text-align: left;
-    margin-left: 7rem;
+    margin-left: 1rem;
     text-transform: none;
     color: white;
     font-family: 'Roboto Condensed';
@@ -603,6 +603,11 @@ h1 span {
 
 .contact-text p{
     font-size: 1.5rem;
+}
+
+.cookie-text{
+    margin-left: 7rem;
+    
 }
 
 .cookie-button{
