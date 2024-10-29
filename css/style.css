@@ -247,7 +247,7 @@ h1 {
 
 .white-arrow {
     position: absolute;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     margin-left: 1rem;
     left: 0;
     bottom: 0;
@@ -256,6 +256,17 @@ h1 {
 .white-arrow img {
     height: 5vw;
     rotate: 90deg;
+}
+
+
+.arrow-animate{
+    transition: transform 0.5s ease-in-out,margin-top 0.20s ease-in-out;
+    animation-direction: normal;
+
+}
+
+.arrow-animate-container:hover .arrow-animate{
+    transform: translateX(10px)
 }
 
 .img-container {
