@@ -21,8 +21,6 @@ body {
     top: 20px;
     z-index: 3;
     pointer-events: none;
-
-    
     
 }
 
@@ -39,12 +37,17 @@ body {
     background-color: #fff236;
     border-radius: 6px;
     margin-bottom: 4px;
-
 }
 
-/* transition: transform 0.5s ease-in-out,margin-top 0.20s ease-in-out;
-animation-direction: normal;
-transform: translateX(10px) */
+/* .menu-button-animate{
+    transition: transform 0.5s ease-in-out,margin-top 0.20s ease-in-out;
+    animation-direction: normal;
+}
+
+.menu-button-animate:hover{
+    transform: translateX(10px);
+} */
+
 
 .box {
     position: fixed;
