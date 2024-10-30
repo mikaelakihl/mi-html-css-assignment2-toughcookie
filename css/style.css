@@ -555,6 +555,9 @@ form {
     
 }
 
+svg{
+    filter: drop-shadow(-2px -1px 0px black);
+}
 
 .contact-text a{
     text-decoration: none;
