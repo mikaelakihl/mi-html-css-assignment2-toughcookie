@@ -200,7 +200,7 @@ h1 {
     order: 1;
     position: absolute;
     top: 2rem;
-    right: -3px;
+    right: 0;
     font-size: 3rem;
     color: #aa75ff;
 }
