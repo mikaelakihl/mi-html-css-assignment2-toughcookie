@@ -200,7 +200,7 @@ h1 {
     order: 1;
     position: absolute;
     top: 2rem;
-    right: -1rem;
+    right: ;
     font-size: 3rem;
     color: #aa75ff;
 
@@ -711,7 +711,7 @@ h1 span {
         writing-mode: vertical-rl;
         text-orientation: upright;
         /* align-items: center; */
-        margin-top: 4rem;
+        margin-top: 0;
         margin-left: 0;
         font-size: 1rem;
 
