@@ -476,6 +476,7 @@ form {
     border-radius: 0.7rem;
     text-transform:capitalize;
     border: none;
+    height: 30px;
 }
 
 .form-buttons{
