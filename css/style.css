@@ -5,8 +5,7 @@
 }
 
 body {
-    /* background-color: #ff0; */
-    background-color: #61c7eb;
+    background-color: #ff0;
     font-family: 'Jockey One', sans-serif;
     text-transform: uppercase;
     font-size: 1rem;
@@ -28,10 +27,17 @@ body {
 /* .menu-button :hover.menu-button{
     transform: translateX(10px)
 } */
+/* 
+.menu .menu-button span{
+    transition: transform 0.6s ease;
+}
 
+.menu :hover .menu-button span{
+    transform: translateX(5px);
+    transition:transform 0.6s ease;
+} */
 
-
-.menu-button span {
+.menu-button .menu-button-span {
     display: block;
     width: 45px;
     height: 7px;
@@ -61,20 +67,20 @@ body {
 
 }
 
-input:checked+.menu button span {
+.menu-button-input:checked+.menu .menu-button .menu-button-span {
     position: absolute;
     transition: all 0.2s ease-in-out;
 }
 
-input:checked+.menu button span:nth-child(2) {
+.menu-button-input:checked+.menu .menu-button .menu-button-span:nth-child(2) {
     opacity: 0;
 }
 
-input:checked+.menu button span:nth-child(1) {
+.menu-button-input:checked+.menu .menu-button .menu-button-span:nth-child(1) {
     transform: rotate(45deg);
 }
 
-input:checked+.menu button span:nth-child(3) {
+.menu-button-input:checked+.menu .menu-button .menu-button-span:nth-child(3) {
     transform: rotate(-45deg);
 }
 
@@ -97,7 +103,7 @@ nav a{
 }
 
 
-input:checked+.menu nav {
+.menu-button-input:checked+.menu nav {
     display: block;
     opacity: 1;
     visibility: visible;
@@ -473,6 +479,7 @@ form {
     max-width: 300px;
     border-radius: 0.7rem;
     text-transform:capitalize;
+    border: none;
 }
 
 .form-buttons{
@@ -487,6 +494,7 @@ form {
     width: 80px;
     border-radius: 0.7rem;
     text-transform: uppercase;
+    border: none;
 }
 
 .form-button-yellow{
