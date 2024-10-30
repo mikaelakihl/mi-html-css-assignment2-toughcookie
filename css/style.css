@@ -604,6 +604,8 @@ form {
 .cookie-button-container input{
     text-transform: uppercase;
     height: 35px;
+    border: none;
+    
 }
 
 
