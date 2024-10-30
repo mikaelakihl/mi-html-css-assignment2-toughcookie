@@ -21,7 +21,6 @@ body {
     top: 20px;
     z-index: 3;
     pointer-events: none;
-    border: solid blue;
     
 }
 
@@ -101,11 +100,25 @@ body {
     transition: all 0.2s ease-in-out;
 }
 
+.menu-button-input:hover + .menu .menu-button .menu-button-span:nth-child(1){
+    /* position: absolute;
+    transform:translateX(5px); */
+    transition: all 0.2s ease-in-out;
+    transform: translateX(-5px);
+}
+
 .menu-button-input:hover + .menu .menu-button .menu-button-span:nth-child(2){
     /* position: absolute;
     transform:translateX(5px); */
     transition: all 0.2s ease-in-out;
-    background-color:#aa75ff;
+    transform: translateX(-5px);
+}
+
+.menu-button-input:hover + .menu .menu-button .menu-button-span:nth-child(3){
+    /* position: absolute;
+    transform:translateX(5px); */
+    transition: all 0.2s ease-in-out;
+    transform: translateX(-5px);
 }
 
 .menu-button-input:checked + .menu .menu-button .menu-button-span:nth-child(2) {
