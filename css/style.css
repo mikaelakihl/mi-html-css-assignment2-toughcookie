@@ -541,7 +541,6 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-shadow: 10px 2px 10px black;
     gap: 2rem;
 }
 
@@ -552,6 +551,7 @@ form {
     display: flex;
     align-items: center;
     width: 100%;
+    text-shadow: -2px -1px 0px black;
     
 }
 
