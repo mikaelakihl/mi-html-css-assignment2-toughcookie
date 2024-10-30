@@ -21,8 +21,29 @@ body {
     top: 20px;
     z-index: 3;
     pointer-events: none;
+    border: solid blue;
     
 }
+
+.menu-button-span-container{
+    /* position: relative; */
+    border: solid white;
+    height: 100%;
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: space-between;
+    align-items: center;
+    flex-direction: column; */
+}
+
+
+/* .label-button{
+    transition: transform 0.3s ease-in-out;
+}
+
+.label-button:hover{
+    transform: translateX(-10px);
+} */
 
 /* .menu-button :hover.menu-button{
     transform: translateX(10px)
@@ -37,14 +58,33 @@ body {
     transition:transform 0.6s ease;
 } */
 
-.menu-button .menu-button-span {
+.menu-button-span {
     display: block;
-    width: 45px;
+    width: 40px;
     height: 7px;
     background-color: #fff236;
     border-radius: 6px;
     margin-bottom: 4px;
+    transition: all 0.3s ease-in-out;
 }
+
+.menu-button span:nth-child(1){
+    background-color: red;
+    
+}
+
+.menu-button-span span:nth-child(2):hover {
+    background-color: rgb(81, 255, 0);
+    /* position: absolute; */
+    /* right:5px; */
+    transform: translateX(5px);
+
+}
+
+.menu-button span:nth-child(3){
+    background-color: red;
+}
+
 
 /* .menu-button-animate{
     transition: transform 0.5s ease-in-out,margin-top 0.20s ease-in-out;
@@ -56,7 +96,7 @@ body {
 } */
 
 
-.box {
+.menu-button-input {
     position: fixed;
     top: 20px;
     left: 20px;
@@ -66,21 +106,21 @@ body {
     opacity: 0;
 
 }
-
-.menu-button-input:checked+.menu .menu-button .menu-button-span {
+/*When checked*/
+.menu-button-input:checked + .menu .menu-button .menu-button-span {
     position: absolute;
     transition: all 0.2s ease-in-out;
 }
 
-.menu-button-input:checked+.menu .menu-button .menu-button-span:nth-child(2) {
+.menu-button-input:checked + .menu .menu-button .menu-button-span:nth-child(2) {
     opacity: 0;
 }
 
-.menu-button-input:checked+.menu .menu-button .menu-button-span:nth-child(1) {
+.menu-button-input:checked + .menu .menu-button .menu-button-span:nth-child(1) {
     transform: rotate(45deg);
 }
 
-.menu-button-input:checked+.menu .menu-button .menu-button-span:nth-child(3) {
+.menu-button-input:checked + .menu .menu-button .menu-button-span:nth-child(3) {
     transform: rotate(-45deg);
 }
 
