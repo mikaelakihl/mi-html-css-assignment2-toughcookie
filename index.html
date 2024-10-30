@@ -52,9 +52,10 @@
       <div class="roman-salad-container">
         <div class="img-container">
           <img class="roman-salad" src="assets/photos/green-roman-salad.jpg" height="2120" width="2650"
-            alt="Big close up picture of a green roman salad" loading="lazy">
+            alt="Big close up picture of a green roman salad" loading="eager"> 
+            <!-- Har inte använt "loading-lazy" eftersom att bilden kommer upp snabbt på sidan och är relevant för bildtexten -->
           <div class="white-arrow arrow-animate-container">
-            <a href="#book-a-table-section" aria-label="Jump to the last page"><img class="arrow-animate" src="assets/icons/arrow.svg"></a>
+            <a href="#book-a-table-section" aria-label="Jump to the last page"><img class="arrow-animate" src="assets/icons/arrow.svg" aria-label="Jump to the last page"></a>
           </div>
         </div>
         <div class="explore-p-container">
@@ -200,7 +201,7 @@
     <footer class="cookie-footer">
       <span class="cookie-text">You should accept cookies. </span>
       <span class="cookie-button-container">
-        <input class="form-button-yellow cookie-button" type="decline" value="Decline">
+        <input class="form-button-yellow cookie-button" type="submit" value="Decline">
         <input class="form-button-green button-accept cookie-button" type="sumbit" value="Accept">
       </span>
     </footer>
